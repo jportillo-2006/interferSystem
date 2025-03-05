@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "67c69f2cfbb269d53be3c8c9"
+  },
+  "name": "Distefano",
+  "impactLevel": "internacional",
+  "yearsOfExperience": 10,
+  "category": "Moda",
+  "description": "Tienda de ropa",
+  "phone": "1111-1111",
+  "email": "contacto@distefano.com",
+  "representative": "Manuel",
+  "createdAt": {
+    "$date": "2025-03-04T06:35:24.163Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T06:35:24.163Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7b865f1042c89252de3f3"
+  },
+  "name": "Google",
+  "impactLevel": "internacional",
+  "yearsOfExperience": 30,
+  "category": "software",
+  "description": "e",
+  "phone": "2222-3333",
+  "email": "contacto@microsoft.com",
+  "representative": "Julio profe",
+  "createdAt": {
+    "$date": "2025-03-05T02:35:17.076Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T02:43:37.601Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7d0eb15cd4a6f0c2d62f7"
+  },
+  "name": "Los pollos hermanos",
+  "impactLevel": "internacional",
+  "yearsOfExperience": 5,
+  "category": "pollos",
+  "description": "e",
+  "phone": "6666-3333",
+  "email": "contacto@pollo.com",
+  "representative": "El pollo",
+  "createdAt": {
+    "$date": "2025-03-05T04:19:55.953Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T04:19:55.953Z"
+  }
+}]
