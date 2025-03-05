@@ -1,0 +1,178 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "CRUD company",
+    "collectionId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+    "dateExported": "2025-03-05T04:28:55.989Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "855789f1-bbdf-4522-acef-66a6139f686d",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "register company",
+            "url": "http://localhost:3000/interferSystem/v1/company/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-03-05T02:36:06.493Z",
+            "modified": "2025-03-05T04:19:55.983Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDY5MTUsImV4cCI6MTc0MTE1MDUxNX0.2L9-xH5-hYbRHXN_PkEFGPtoHFi4GfPUJ2ig-V3UBj8"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Los pollos hermanos\",\n  \"impactLevel\": \"internacional\",\n  \"yearsOfExperience\": \"5\",\n  \"category\": \"pollos\",\n  \"description\": \"e\",\n  \"phone\": \"6666-3333\",\n  \"email\": \"contacto@pollo.com\",\n  \"representative\": \"El pollo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "174db211-8e02-4e38-9767-ae1b883e57aa",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "Update company",
+            "url": "http://localhost:3000/interferSystem/v1/company/67c7b865f1042c89252de3f3",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2025-03-05T02:44:58.037Z",
+            "modified": "2025-03-05T02:44:58.037Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDE5MDMsImV4cCI6MTc0MTE0NTUwM30.qPo39jH58G4nXz6TTfpWVpwQgzlcMvIGgEbRtrbv4n4"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Google\",\n  \"impactLevel\": \"internacional\",\n  \"yearsOfExperience\": \"30\",\n  \"category\": \"software\",\n  \"description\": \"e\",\n  \"phone\": \"2222-3333\",\n  \"email\": \"contacto@microsoft.com\",\n  \"representative\": \"Julio profe\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "024bfc12-1906-461d-9d2f-73e9fc7e1c7e",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "Listado",
+            "url": "http://localhost:3000/interferSystem/v1/company/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-05T02:46:48.340Z",
+            "modified": "2025-03-05T02:46:48.340Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDE5MDMsImV4cCI6MTc0MTE0NTUwM30.qPo39jH58G4nXz6TTfpWVpwQgzlcMvIGgEbRtrbv4n4"
+                }
+            ]
+        },
+        {
+            "_id": "96c781d8-804b-441d-a821-1b1047f9e803",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "yearsOfExperience filtro mayor o igual",
+            "url": "http://localhost:3000/interferSystem/v1/company?yearsOfExperience=10",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-03-05T02:53:06.984Z",
+            "modified": "2025-03-05T02:53:06.984Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDE5MDMsImV4cCI6MTc0MTE0NTUwM30.qPo39jH58G4nXz6TTfpWVpwQgzlcMvIGgEbRtrbv4n4"
+                }
+            ],
+            "params": [
+                {
+                    "name": "yearsOfExperience",
+                    "value": "10",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "159acb6c-aa88-450a-a142-842770337229",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "yearsOfExperience de mayor a menor",
+            "url": "http://localhost:3000/interferSystem/v1/company?orderBy=yearsOfExperience&orderDirection=desc",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-03-05T02:55:51.487Z",
+            "modified": "2025-03-05T02:55:51.487Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDE5MDMsImV4cCI6MTc0MTE0NTUwM30.qPo39jH58G4nXz6TTfpWVpwQgzlcMvIGgEbRtrbv4n4"
+                }
+            ],
+            "params": [
+                {
+                    "name": "orderBy",
+                    "value": "yearsOfExperience",
+                    "isPath": false
+                },
+                {
+                    "name": "orderDirection",
+                    "value": "desc",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "51257f20-3f38-4c7a-ac93-2c7647c433da",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "Ordenar por categoria",
+            "url": "http://localhost:3000/interferSystem/v1/company?category=software",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-03-05T02:58:03.754Z",
+            "modified": "2025-03-05T02:58:03.754Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDE5MDMsImV4cCI6MTc0MTE0NTUwM30.qPo39jH58G4nXz6TTfpWVpwQgzlcMvIGgEbRtrbv4n4"
+                }
+            ],
+            "params": [
+                {
+                    "name": "category",
+                    "value": "software",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "631e569d-b1d3-438f-a057-e69068cdb9a4",
+            "colId": "a27fc3d9-fc8a-480c-bebf-f2aa7fb49b2b",
+            "containerId": "",
+            "name": "Ordenar nombres asc y desc",
+            "url": "http://localhost:3000/interferSystem/v1/company?orderBy=name&orderDirection=desc",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-03-05T03:03:12.907Z",
+            "modified": "2025-03-05T03:03:12.907Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDE5MDMsImV4cCI6MTc0MTE0NTUwM30.qPo39jH58G4nXz6TTfpWVpwQgzlcMvIGgEbRtrbv4n4"
+                }
+            ],
+            "params": [
+                {
+                    "name": "orderBy",
+                    "value": "name",
+                    "isPath": false
+                },
+                {
+                    "name": "orderDirection",
+                    "value": "desc",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "9cIILYHl6n7ic_jxdX46OVrOnPSLfUG89YeK5p1xioowRm8vuncWCFCLCCZj5zlEnHGM-6_XC_Wbv9x_KB1kBA"
+}

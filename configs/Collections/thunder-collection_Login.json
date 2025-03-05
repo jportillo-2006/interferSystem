@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Login",
+    "collectionId": "9c776b45-21a2-4d06-8e9f-04875a2297ea",
+    "dateExported": "2025-03-05T04:28:06.122Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "929ce730-1bb0-4f1f-8696-e39630409a36",
+            "colId": "9c776b45-21a2-4d06-8e9f-04875a2297ea",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/interferSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-03-02T22:43:24.173Z",
+            "modified": "2025-03-02T22:43:24.173Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Admin\",\n  \"password\": \"panito123\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "IDiQPLLQ6LyLMoTZDc2kFRME2gZW86gAnMuKElXeQlJGHjggIjXcFynByhFdwOk_NP0eRbnYKT6pCI9nRvbIgQ"
+}

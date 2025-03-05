@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Reports",
+    "collectionId": "4dc51f27-2ba0-4708-9b2b-b68d1f4a5fdd",
+    "dateExported": "2025-03-05T04:29:01.404Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8fb744ce-0c01-4641-b944-a3f35742ac3c",
+            "colId": "4dc51f27-2ba0-4708-9b2b-b68d1f4a5fdd",
+            "containerId": "",
+            "name": "Solicitar",
+            "url": "http://localhost:3000/interferSystem/v1/reports/ExcelReport",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-03-05T04:27:12.359Z",
+            "modified": "2025-03-05T04:27:12.359Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2M0ZGU5ZDNjYzFkMzQ4N2Q0ZDM2ZmEiLCJpYXQiOjE3NDExNDY5MTUsImV4cCI6MTc0MTE1MDUxNX0.2L9-xH5-hYbRHXN_PkEFGPtoHFi4GfPUJ2ig-V3UBj8"
+                }
+            ]
+        }
+    ],
+    "ref": "SWdQoDPbZCKya1YPu98S-xqU1yRQSFy-E2HSOULXNpfPD05g1fMTpxyGcWR8T7Uhp181IyY5Fs3JoBIoh9uA-A"
+}

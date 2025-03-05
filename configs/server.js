@@ -5,8 +5,10 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
-import { createAdminUser } from './admin-setup.js'
-import authRoutes from '../src/auth/auth.routes.js'
+import { createAdminUser } from './admin-setup.js';
+import authRoutes from '../src/auth/auth.routes.js';
+import companyRoutes from '../src/companies/company.routes.js';
+import reportRoutes from '../src/reports/report.routes.js';
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -18,6 +20,8 @@ const middlewares = (app) => {
 
 const routes = (app) => {
     app.use('/interferSystem/v1/auth', authRoutes);
+    app.use('/interferSystem/v1/company', companyRoutes);
+    app.use('/interferSystem/v1/reports', reportRoutes);
 }
 
 const conectarDB = async () => {
